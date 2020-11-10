@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-git archive -o update.zip HEAD $(git diff --name-only HEAD^)
+zip update.zip $(git diff --name-only HEAD^)
