@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# this script sets proper permissions for your .ssh directory and its contents
+
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/*
